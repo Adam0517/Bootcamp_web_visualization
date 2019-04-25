@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/Users/adam/Desktop/11-Web/Instructions/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+    <!-- Navigation Button -->
+        <div class="row">
+            <div class="col-md-8">
+                <div class="box_button">
+                    <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Latitude</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="box_button">
+                    <ul class="nav justify-content-end">
+                        <div class="dropdown">
+                            <button class="dropbtn">Plots</button>
+                            <div class="dropdown-content">
+                               <a href="#">Max Temperature</a>
+                               <a href="#">Humidity</a>
+                               <a href="#">Cloudiness</a>
+                               <a href="#">Wind Speed</a>
+                            </div>
+                        </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Comparison</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Data</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <!-- Navigation Button -->
+
+    <!-- Content of Main Page-->
+        <div class="row">
+
+
+            <div class="col-md-8">
+                <div class="box">
+                    <h2>Introduction : Latitude vs. Weather factors</h2>
+                    <hr>
+                    <div class="Pic_word">
+                        <img src="/Users/adam/Desktop/11-Web/Instructions/Resources/world.png" alt="World Picture" 
+                        style="width:256px;height:256px;"><br>
+                        <p class="outside_pic">The picture is from this <a target="_blank" href="https://superdupergames.co/us-atlas-map-with-latitude-and-longitude/us-atlas-map-with-latitude-and-longitude-refrence-world-map-with-latitude-longitude-list-longitude-and-latitude-map/"
+                        title="Picture Website">website</a></p>
+                    </div>
+        
+                    <p>The purpose of this topice is visualizing the weather of 500+ cites acroos the world of varying
+                   distance from the equator. We first used OpenWeatherMap API to get weather datasets over 500
+                       cities.</p> <br>
+                    <p>Then, we used Python Matplotlib to plot various aspects of latitude vs. weather factors
+                   (temperature, cloudiness, wind speed, and humidity). This site provides the source data and 
+                   visualizations created as part of the analysis, as well as explanations and descriptions of 
+                       any trends and correlations witnessed.</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+                <div class="box">
+                    <h2>Visualizations</h2>
+                    <hr>
+                    <a href="#"><img src="/Users/adam/Desktop/11-Web/Instructions/Resources/figure1.png" 
+                       alt="Lattitude vs. Max Temp." style="width:150px;height:150px;"></a>
+                    <a href="#"><img src="/Users/adam/Desktop/11-Web/Instructions/Resources/figure3.png" 
+                       alt="Lattitude vs. cloud." style="width:150px;height:150px;"></a>
+                    <a href="#"><img src="/Users/adam/Desktop/11-Web/Instructions/Resources/figure4.png" 
+                       alt="Lattitude vs. wind." style="width:150px;height:150px;"></a>
+                    <a href="#"><img src="/Users/adam/Desktop/11-Web/Instructions/Resources/figure2.png" 
+                       alt="Lattitude vs. humidity." style="width:150px;height:150px;"></a>
+                </div>
+            </div>
+
+        </div>
+    <!-- Content of Main Page-->
+    </div>
+
+
+</body>
+
+</html>
