@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/Users/adam/Desktop/11-Web/Instructions/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+    <!-- Navigation Button -->
+        <div class="row">
+            <div class="col-md-8">
+                <div class="box_button">
+                    <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Latitude</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="box_button">
+                    <ul class="nav justify-content-end">
+                        <div class="dropdown">
+                            <button class="dropbtn">Plots</button>
+                            <div class="dropdown-content">
+                               <a href="#">Max Temperature</a>
+                               <a href="#">Humidity</a>
+                               <a href="#">Cloudiness</a>
+                               <a href="#">Wind Speed</a>
+                            </div>
+                        </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Comparison</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Data</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <!-- Navigation Button -->
+
+    <!-- Content of Main Page-->
+        <div class="row">
+
+
+            <div class="col-md-8">
+                <div class="box">
+                    <h1>Wind Speed</h1>
+                    <hr>
+                    <div>
+                        <img src="/Users/adam/Desktop/11-Web/Instructions/Resources/figure4.png" alt="Wind Picture" 
+                        style="width:360px;height:360px;" class="center"><br>
+                    </div>
+        
+                    <p>There is no strong relationship between latitude and wind speed. Wind speed is depended on 
+                        the difference in pressure. If there is the greater the difference in pressure, the wind speed 
+                        will be faster.</p> <br>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+                <div class="box">
+                    <h1>Visualizations</h1>
+                    <hr>
+                    <a href="#"><img src="/Users/adam/Desktop/11-Web/Instructions/Resources/figure1.png" 
+                       alt="Lattitude vs. Max Temp." style="width:150px;height:150px;"></a>
+                    <a href="#"><img src="/Users/adam/Desktop/11-Web/Instructions/Resources/figure3.png" 
+                       alt="Lattitude vs. cloud." style="width:150px;height:150px;"></a>
+                    <a href="#"><img src="/Users/adam/Desktop/11-Web/Instructions/Resources/figure4.png" 
+                       alt="Lattitude vs. wind." style="width:150px;height:150px;"></a>
+                    <a href="#"><img src="/Users/adam/Desktop/11-Web/Instructions/Resources/figure2.png" 
+                       alt="Lattitude vs. humidity." style="width:150px;height:150px;"></a>
+                </div>
+            </div>
+
+        </div>
+    <!-- Content of Main Page-->
+    </div>
+
+
+</body>
+
+</html>
